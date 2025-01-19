@@ -2,6 +2,3 @@ crewai_tools
 crewai
 openai
 requests
-db
-snowflake
-snowflake-connector-python
