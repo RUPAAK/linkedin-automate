@@ -4,3 +4,4 @@ openai
 requests
 db
 snowflake
+snowflake-connector-python
