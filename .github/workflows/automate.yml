@@ -12,3 +12,6 @@ jobs:
       - name: Display message
         run: echo "Hello from GitHub Actions!"
       
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
