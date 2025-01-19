@@ -1,14 +1,10 @@
 name: "Workflow example"
 
-# on:
-#   schedule:
-#     - cron: '*/5 * * * *'
-
 on:
   push:
     branches:
       - main
-
+      
 jobs:
   hello:
     name: "Say hello"
@@ -17,9 +13,10 @@ jobs:
       - name: Display message
         run: echo "Hello from GitHub Actions!"
       
-      - name: Display message
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.13' 
-      - run: python main.py
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # - name: Set up Python
+      #   uses: actions/setup-python@v2
+      #   with:
+      #     python-version: '3.12'
