@@ -3,3 +3,4 @@ crewai
 openai
 requests
 db
+snowflake
