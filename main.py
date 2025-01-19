@@ -1,5 +1,5 @@
 # from crewai_tools import ScrapeWebsiteTool
-# import os
+import os
 # from agents import SocialMediaManagerAgent, ImageCreatorAgent
 
 # os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
