@@ -1,0 +1,5 @@
+crewai_tools
+crewai
+openai
+requests
+db
